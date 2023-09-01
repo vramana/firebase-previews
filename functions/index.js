@@ -8,5 +8,5 @@ import { initializeApp } from "firebase-admin/app";
 initializeApp();
 
 export const helloWorld = onRequest((request, response) => {
-	response.send("Hello World from Firebase!");
+	response.send("Hello test from Firebase!");
 });
