@@ -9,7 +9,10 @@
 		"rewrites": [
 			{
 				"source": "/hello",
-				"function": "helloWorld"
+				"function": {
+					"functionId": "helloWorld",
+					"pinTag": true
+				}
 			},
 			{
 				"source": "**",
