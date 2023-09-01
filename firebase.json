@@ -1,6 +1,7 @@
 {
 	"functions": {
-		"source": "functions"
+		"source": "functions",
+		"runtime": "nodejs18"
 	},
 	"hosting": {
 		"public": "dist",
@@ -9,6 +10,10 @@
 			{
 				"source": "**",
 				"destination": "/index.html"
+			},
+			{
+				"source": "/hello",
+				"function": "helloWorld"
 			}
 		]
 	}
