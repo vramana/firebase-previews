@@ -8,12 +8,12 @@
 		"ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
 		"rewrites": [
 			{
-				"source": "**",
-				"destination": "/index.html"
-			},
-			{
 				"source": "/hello",
 				"function": "helloWorld"
+			},
+			{
+				"source": "**",
+				"destination": "/index.html"
 			}
 		]
 	}
