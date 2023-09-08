@@ -1,6 +1,6 @@
-name: Issue Report
-description: Report an issue with the app
-title: "[Request Preview]: "
+name: Request Integration Access
+description: Use this issue to provide access to selected customers
+title: "[Request Access]: "
 assignees:
   - vramana
 body:
@@ -9,16 +9,10 @@ body:
   attributes:
     label: Domains
     placeholder: Enter the affected domains
-- id: app_name
-  type: textarea
-  attributes:
-    label: App Name
-    placeholder: Enter the name of the app
 - type: checkboxes
   id: terms
   attributes:
-    label: Eagle Eye Integration
-    description: Connects Eagle Eye cameras 
+    label: Preview Integrations
     options:
-      - label: I agree to follow this project's Code of Conduct
+      - label: Eagle Eye Integration
         required: true
