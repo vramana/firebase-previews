@@ -14,3 +14,11 @@ body:
   attributes:
     label: App Name
     placeholder: Enter the name of the app
+- type: checkboxes
+  id: terms
+  attributes:
+    label: Eagle Eye Integration
+    description: Connects Eagle Eye cameras 
+    options:
+      - label: I agree to follow this project's Code of Conduct
+        required: true
