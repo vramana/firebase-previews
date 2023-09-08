@@ -1,8 +1,8 @@
 name: Issue Report
 description: Report an issue with the app
 title: "[Request Preview]: "
-assignees: 
-- vramana
+assignees:
+  - vramana
 body:
 - id: domains
   type: textarea
