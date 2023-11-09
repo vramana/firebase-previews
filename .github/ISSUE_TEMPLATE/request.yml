@@ -1,6 +1,6 @@
 name: Request Integration Access
 description: Use this issue to provide access to selected customers
-title: "[Request Access]: "
+title: "Request Access: "
 assignees:
   - vramana
 body:
@@ -15,4 +15,4 @@ body:
     label: Preview Integrations
     options:
       - label: Eagle Eye Integration
-        required: true
+        
